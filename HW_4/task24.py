@@ -16,5 +16,4 @@ for i in range(len(A) - 1):
     if max_x < (A[i - 1] + A[i] + A[i + 1]):
         max_x = (A[- 2] + A[-1] + A[0])
 
-               
-print(A, (max_x))
+
